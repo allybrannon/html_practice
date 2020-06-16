@@ -1,0 +1,34 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+h2 {
+  color: red;
+  text-decoration: underline;
+  text-align: center;
+}
+section {
+  padding: 10px;
+  border-radius: 10px;
+  background: #ccc;
+  margin: 4px;
+  text-align: center;
+}
+.additional-info {
+  background: red;
+  border: 10px solid #3d43e3;
+  padding: 20px;
+}
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+section .additional-info {
+  border-radius: 20px;
+  padding: 5px;
+  color: green;
+}
+div:hover {
+  background: yellowgreen;
+}
