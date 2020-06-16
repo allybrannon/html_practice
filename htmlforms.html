@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+      <fieldset>
+        <legend>Tell me your name</legend>
+      <div> 
+          <!-- this first div has a form action -->
+          <!-- since input not wrapped in label ; the for attatches that id to the label with same name-->
+        <form action="#">
+            <label for="first_name" >First Name</label>
+        <input id="first_name" placeholder="first name" name="first_name" />
+     </div>
+     <div>
+         <!-- this div has no form action -->
+        <label>Last Name
+            <input name="last_name" placeholder="last name"/>
+        </label>
+      </div>
+      </fieldset>
+      <div>
+          <!-- make sure you have a value! -->
+          <label><input type="radio" name="agree-to-empire" id="Yes" value="yes"checked/>Yes</label>
+          <label><input type="radio" name="agree-to-empire" id="No" value="no" />No</label>
+      </div>
+      <div>
+        <label>Are you older than 21?
+            <input type="checkbox" name="older_than_21" value="older than 21">
+        </label>
+      </div>
+      <div>
+          <input type="checkbox" id="hand-blaster" name="hand-blaster">Hand Blaster
+      </div>
+      <div>
+        <label for="favorite_person">My favorite person:</label>
+        <select name="favorite_person" id="favorite_person">
+            <option value="">--Please select a favorite--</option>></option>
+            <option value="Alexis">Alexis</option>
+            <option value="Jack">Jack</option>
+            <option value="Banana">Banana</option>
+        </select>
+      </div>
+      <textarea name="long_text">Type here</textarea>
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
